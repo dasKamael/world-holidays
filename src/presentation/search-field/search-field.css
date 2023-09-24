@@ -1,0 +1,39 @@
+.search-field {
+  width: 50%;
+  height: 100%;
+  display: flex;
+
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  padding: 20px 20px;
+}
+
+
+.search-field input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.2rem;
+  color: #333;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.search-field {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .search-field input {
+    background-color: transparent;
+    width: max-content;
+  }
+  
+  .search-field .autocomplete-text {
+    color: rgba(0, 0, 0, 0.5);
+  }
