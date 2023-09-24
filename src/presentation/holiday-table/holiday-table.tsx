@@ -4,7 +4,7 @@ import "./holiday-table.css";
 interface Props {
   holidays: any;
   loading: boolean;
-  error: string | null; // Add error prop
+  error: string | null;
 }
 
 export const HolidayTable: FC<Props> = ({ holidays, loading, error }) => {

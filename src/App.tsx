@@ -7,7 +7,6 @@ import { HolidayTable } from "./presentation/holiday-table/holiday-table";
 import { SearchField } from "./presentation/search-field/search-field";
 
 function App() {
-  // have a state that saves the result of the search
   const [search, setSearch] = useState("");
 
   const [holidays, setHolidays] = useState<Holiday[]>([]);

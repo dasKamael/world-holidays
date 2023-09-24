@@ -15,7 +15,7 @@ export const SearchField: FC<Props> = ({ countries, onSearch }) => {
     const value = e.target.value;
     setSearch(value);
     if (value) {
-      const regex = new RegExp(`^${value.replace(/ /g, "\\s")}`, "i"); // updated this line to handle spaces
+      const regex = new RegExp(`^${value.replace(/ /g, "\\s")}`, "i");
       const suggestions = countries.filter((country) =>
         regex.test(country.country_name)
       );
