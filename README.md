@@ -4,4 +4,4 @@ Zum suchen einfach eingeben. Es wird das Land mit tab vervollständigt und mit e
 Im rechten header des tables kann man den typ auswählen
 
 
-Zeitlich habe ich für die Anwendung ca. 3-4 Stunden benötigt
+Zeitlich habe ich für die Anwendung ca. 3 Stunden benötigt
